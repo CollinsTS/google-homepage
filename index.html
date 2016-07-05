@@ -4,36 +4,38 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-	<header>
-		<p>Gmail</p>
-		<p>Images</p>
-		<div class="boxlogo"></div>
-		<div class="headerbutton">
-			<p>Sign in</p>
-		</div>
-	</header>
-	<div class="main">
-	<img src="images/logo.png" alt="Google Logo">
-	<form>
-		<input type="text" name="search">
-	</form>
-	<div class="bodybutton" id="search">
-		<p>Google Search</p>
-	</div>
-	<div class="bodybutton" id="lucky">
-		<p>I'm Feeling Lucky</p>
-	</div>
+	<nav>
+		<ul>
+			<li>Gmail</li>
+			<li>Images</li>
+			<li id="boxlogo">BOX</li>
+			<li id="headerbutton">Sign in</li>
+		</ul>
+	</nav>
+	<main>
+		<img src="images/logo.png" alt="Google Logo">
+		<form>
+			<input type="text" name="search">
+			<div id="buttons">
+				<input type="Submit" value="Google Search">
+				<input type="Submit" value="I'm Feeling Lucky">
+			</div>
+		</form>
 	</main>
 	<footer>
 		<div class="footerleft">
-			<p>Advertising</p>
-			<p>Business</p>
-			<p>About</p>
+			<ul>
+				<li>Advertising</li>
+				<li>Business</li>
+				<li>About</li>
+			</ul>
 		</div>
 		<div class="footerright">
-			<p>Privacy</p>
-			<p>Terms</p>
-			<p>Settings</p>
+			<ul>
+				<li>Privacy</li>
+				<li>Terms</li>
+				<li>Settings</li>
+			</ul>
 		</div>
 	</footer>
 </body>
